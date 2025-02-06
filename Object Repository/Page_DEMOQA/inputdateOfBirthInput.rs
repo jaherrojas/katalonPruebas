@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputdateOfBirthInput</name>
+   <tag></tag>
+   <elementGuidId>a9d832d7-dbda-45a0-b200-7807f18c21d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type = 'text' and @id = 'dateOfBirthInput']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>e33d272a-f35c-454f-ac74-8379a615ed81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>4b5222a5-c135-42e2-b906-c106d6a21885</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dateOfBirthInput</value>
+      <webElementGuid>849f61f7-184c-44e9-aaa6-40e6483299c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control react-datepicker-ignore-onclickoutside</value>
+      <webElementGuid>340f9e00-741e-44dc-aef4-245b405fcc58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>f695957a-c024-42a8-b423-703c5c9e82a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4 col-md-6&quot;]/div[@class=&quot;practice-form-wrapper&quot;]/form[@id=&quot;userForm&quot;]/div[@id=&quot;dateOfBirth-wrapper&quot;]/div[@id=&quot;dateOfBirth&quot;]/div[@class=&quot;react-datepicker-wrapper&quot;]/div[@class=&quot;react-datepicker__input-container&quot;]/input[@id=&quot;dateOfBirthInput&quot;]</value>
+      <webElementGuid>fe40a155-8a3b-4c41-9d8e-b18e6d6455db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @id = 'dateOfBirthInput']</value>
+      <webElementGuid>02ca21c3-c251-4b0c-9e70-0786ab409d81</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
