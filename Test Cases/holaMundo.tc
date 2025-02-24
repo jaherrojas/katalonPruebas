@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>barraCarga</name>
+   <name>holaMundo</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a8b0613d-ea7a-4afb-85a0-6856a430e174</testCaseGuid>
+   <testCaseGuid>3818a715-5276-40aa-aa0e-8c205a05bf47</testCaseGuid>
 </TestCaseEntity>

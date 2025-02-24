@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_35</name>
+   <name>button_Stop</name>
    <tag></tag>
-   <elementGuidId>18819aee-ef3f-4852-8db4-dfa601e32df6</elementGuidId>
+   <elementGuidId>a1f24798-8449-43a5-a2c3-eea9938ed6fa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='progressBar']</value>
+         <key>CSS</key>
+         <value>#startStopButton</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#progressBar</value>
+         <key>XPATH</key>
+         <value>//button[@id='startStopButton']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#progressBar</value>
+         <value>internal:role=button[name=&quot;Stop&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,103 +28,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>91a994b9-151e-4d48-afae-15ccc8c7e4de</webElementGuid>
+      <value>button</value>
+      <webElementGuid>3555a28c-2a03-495c-9a12-50e009cc612e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>progressBar</value>
-      <webElementGuid>4cb46784-ff41-4282-b025-d1afd31d38cf</webElementGuid>
+      <value>startStopButton</value>
+      <webElementGuid>4a11e289-93ec-4078-9f48-5b77661f5c14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3d78b92b-53e6-41eb-9313-2231df58cf15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>progress</value>
-      <webElementGuid>a1b8986d-40d5-4e31-9890-fdc99afde922</webElementGuid>
+      <value>mt-3 btn btn-primary</value>
+      <webElementGuid>802971fc-c5ee-4351-9b68-d4f86432d150</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>35%</value>
-      <webElementGuid>647fb5e9-8a4d-45d6-a94d-dc91f8108ff1</webElementGuid>
+      <value>Stop</value>
+      <webElementGuid>9459c0c3-7bae-435c-8aee-619efe221fb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;progressBar&quot;)</value>
-      <webElementGuid>fc22a71a-9023-46f3-9660-9e4a713fe36f</webElementGuid>
+      <value>id(&quot;startStopButton&quot;)</value>
+      <webElementGuid>b283fb99-a6bd-4bc6-9923-9ac935707edd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='progressBar']</value>
-      <webElementGuid>7a3bc10d-bdf9-4479-ab63-090b21d6a10e</webElementGuid>
+      <value>//button[@id='startStopButton']</value>
+      <webElementGuid>75c8eab9-2ddd-44f1-b97b-cf532a1e618b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='progressBarContainer']/div[2]</value>
-      <webElementGuid>492b17e9-699c-4933-973f-337231695971</webElementGuid>
+      <value>//div[@id='progressBarContainer']/button</value>
+      <webElementGuid>4de60016-a63d-424d-9c16-5517ac223339</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Progress Bar'])[3]/following::div[1]</value>
-      <webElementGuid>b8a65402-f57e-4925-9717-ad2e3df83c3c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Progress Bar'])[3]/following::button[1]</value>
+      <webElementGuid>88faa3f9-e0f2-44fc-bb77-7a73fb037f0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Progress Bar'])[2]/following::div[2]</value>
-      <webElementGuid>a84acd0a-8421-4825-a577-6c6007b62a19</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Progress Bar'])[2]/following::button[1]</value>
+      <webElementGuid>3075dea2-a12f-49b8-a488-2ca3b04c8096</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::div[2]</value>
-      <webElementGuid>8fbae13d-1cef-4946-a7cd-1e36f1b48f81</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.'])[1]/preceding::button[1]</value>
+      <webElementGuid>1d73e11b-a3d4-4b5f-9d16-b63f1bbb984b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.'])[1]/preceding::div[14]</value>
-      <webElementGuid>d7a1b156-41e2-4591-b00e-2b775a8fcc1f</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Stop']/parent::*</value>
+      <webElementGuid>44bdcc32-12c5-43cb-b964-7588b2044393</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div[2]</value>
-      <webElementGuid>05b40615-6401-4d6a-a68f-c69b39774f40</webElementGuid>
+      <value>//div[2]/button</value>
+      <webElementGuid>7720dc07-acb6-4b1d-bffa-d98c038ee824</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'progressBar' and (text() = '35%' or . = '35%')]</value>
-      <webElementGuid>72bc8f87-c47e-4562-a603-d6bbe682a73a</webElementGuid>
+      <value>//button[@id = 'startStopButton' and @type = 'button' and (text() = 'Stop' or . = 'Stop')]</value>
+      <webElementGuid>94938fdd-9d4e-466a-8248-8d1ddb6a6ccc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

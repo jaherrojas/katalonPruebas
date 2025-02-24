@@ -17,19 +17,38 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://demoqa.com/automation-practice-form')
-
+// Abrir el navegador y navegar al sitio web
+WebUI.openBrowser('https://demoqa.com/automation-practice-form')
+WebUI.delay(2)
+// Navegar a la sección "Widgets" y luego a "Progress Bar"
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/div_Widgets'))
-
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/span_Progress Bar'))
-
+WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Page_DEMOQA/span_progress_bar'))
+WebUI.delay(2)
+// Hacer clic en el botón "Start" para iniciar la carga de la barra
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/button_Start'))
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/div_14'))
+// Monitorear la barra de progreso hasta que alcance el 39%
+def targetPercentage = 39
+def currentPercentage = 0
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/div_35'))
+while (true) {
+    // Obtener el valor del atributo 'aria-valuenow'
+    def progressValue = WebUI.getAttribute(findTestObject('Object Repository/Page_DEMOQA/progressBar'), 'aria-valuenow')
+   
+    // Convertir el valor a entero
+    currentPercentage = progressValue.toInteger()
+    
+    // Detener el bucle si el progreso alcanza o supera el 39%
+    if (currentPercentage >= targetPercentage) {
+        // Presionar el botón "Stop" inmediatamente
+        WebUI.click(findTestObject('Object Repository/Page_DEMOQA/button_Stop'))
+        break
+    }
+    
+    // Esperar un breve momento antes de verificar nuevamente (reducido a 5 ms)
+    WebUI.delay(0.005) // Tiempo mínimo para evitar sobrecargar el sistema
+}
 
+// Cerrar el navegador
 WebUI.closeBrowser()
-

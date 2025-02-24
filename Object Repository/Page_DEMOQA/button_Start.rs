@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Start</name>
    <tag></tag>
-   <elementGuidId>617292bf-9774-4d9c-957e-2b021d9d69c2</elementGuidId>
+   <elementGuidId>41ca391e-cc2c-4e3b-94cf-bdc5652c3b96</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@id='startStopButton']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#startStopButton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='startStopButton']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2f4f5f82-6851-47a9-95ec-feaf2c2d9f2f</webElementGuid>
+      <webElementGuid>2ff48e79-0e2f-4f1b-be6f-4bf4003a2477</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>startStopButton</value>
-      <webElementGuid>924de69f-fc7d-4ad1-9bc9-22365594b485</webElementGuid>
+      <webElementGuid>cac9b827-dbd9-4545-a15c-e531704a1742</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f598c01f-5ca0-47bf-b6cf-29f176a19fa4</webElementGuid>
+      <webElementGuid>9a5fc99c-70af-4816-bf61-414c4c6610b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mt-3 btn btn-primary</value>
-      <webElementGuid>2deec84e-89c2-4bb6-b98c-7ed620ea3720</webElementGuid>
+      <webElementGuid>6d6a2f7a-3410-455e-9946-d1cbbe747bb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Start</value>
-      <webElementGuid>0b43593b-79fb-4b1d-8370-cf29554a4d1b</webElementGuid>
+      <webElementGuid>64f953af-b7be-4be6-b425-87a41dec9ab0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;startStopButton&quot;)</value>
-      <webElementGuid>bd754d2c-cd06-41d0-bc24-73da3945ab12</webElementGuid>
+      <webElementGuid>bc918b1a-a837-4bb1-b5ce-f60e968d31fb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='startStopButton']</value>
-      <webElementGuid>c0030ab0-dc4e-49d1-8bad-2992d029c73b</webElementGuid>
+      <webElementGuid>71b33b66-6d3a-422a-b1f6-3cbfe111eebf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='progressBarContainer']/button</value>
-      <webElementGuid>09dd65d7-6dad-47f8-b39e-97d14eb27abf</webElementGuid>
+      <webElementGuid>f670e186-4a7e-4d71-a803-0e842a8a7205</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Progress Bar'])[3]/following::button[1]</value>
-      <webElementGuid>12d83018-0037-48b5-9be5-6936761e2a5a</webElementGuid>
+      <webElementGuid>1a8e30c3-9400-479e-9e5c-c78c07c48fa1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Progress Bar'])[2]/following::button[1]</value>
-      <webElementGuid>025f21ba-06ee-4e39-93f3-a27ea960ede5</webElementGuid>
+      <webElementGuid>4d6b67b7-164c-4f7e-821a-ef62871f986c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.'])[1]/preceding::button[1]</value>
-      <webElementGuid>b440c464-2cfc-458e-9688-5b8cdb71bfdc</webElementGuid>
+      <webElementGuid>bb3a5b8a-75ba-403a-9e5e-a4d9ce574a13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Start']/parent::*</value>
-      <webElementGuid>74f258cf-6daa-4d63-a114-a19e0e1311be</webElementGuid>
+      <webElementGuid>fb5cc8de-0e6d-43b9-b47d-2af1e8d1bb6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>1951e877-c1d9-4cad-b8df-f314e227ab44</webElementGuid>
+      <webElementGuid>e91a392b-15ae-4d99-b85e-c6c8f07ca229</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'startStopButton' and @type = 'button' and (text() = 'Start' or . = 'Start')]</value>
-      <webElementGuid>3295c16c-7712-418b-b9ee-386ec776d5b2</webElementGuid>
+      <webElementGuid>24225329-45bc-4c95-a74f-643c21fbf6c1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
