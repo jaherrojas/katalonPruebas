@@ -3,22 +3,22 @@
    <description></description>
    <name>div_Widgets</name>
    <tag></tag>
-   <elementGuidId>d72b51bc-1d9a-44f7-8706-0d62e1be2ac7</elementGuidId>
+   <elementGuidId>00d9e183-be7b-4866-b9ec-5ecfeaf497fb</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div/div/div/div[4]/span/div</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div/div/div[4]/span/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>span >> internal:has-text=&quot;Widgets&quot;i >> div >> nth=0</value>
+         <value>internal:text=&quot;Widgets&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,78 +29,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c6cbf388-fc9f-46bc-aa76-9bb3b8699024</webElementGuid>
+      <webElementGuid>9a16c15c-1f1e-4f84-94db-8287d33b6a2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>header-wrapper</value>
-      <webElementGuid>60833b42-b908-4e46-86ec-ada9bfc4613e</webElementGuid>
+      <value>header-text</value>
+      <webElementGuid>c6164d13-399a-405e-929d-d49230e5e123</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Widgets </value>
-      <webElementGuid>f567c494-7473-41ed-9e80-ebb3be03b44e</webElementGuid>
+      <value>Widgets</value>
+      <webElementGuid>6f646dc3-d2f3-4091-9b69-29f038ca73b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4  col-md-3&quot;]/div[@class=&quot;left-pannel&quot;]/div[@class=&quot;accordion&quot;]/div[@class=&quot;element-group&quot;]/span[@class=&quot;group-header&quot;]/div[@class=&quot;header-wrapper&quot;]</value>
-      <webElementGuid>7212132a-04b0-47ea-a06a-a39fff25a1a9</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4  col-md-3&quot;]/div[@class=&quot;left-pannel&quot;]/div[@class=&quot;accordion&quot;]/div[@class=&quot;element-group&quot;]/span[@class=&quot;group-header&quot;]/div[@class=&quot;header-wrapper&quot;]/div[@class=&quot;header-text&quot;]</value>
+      <webElementGuid>131074b0-1322-43c5-9ed2-3a5dd9f163a5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/div/div[4]/span/div</value>
-      <webElementGuid>0ef50720-0be1-4cfa-9d2e-9dbb0f83a67b</webElementGuid>
+      <value>//div[@id='app']/div/div/div/div/div/div/div[4]/span/div/div</value>
+      <webElementGuid>259a5aef-0c26-453f-a3db-0fe51902a887</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modal Dialogs'])[1]/following::div[2]</value>
-      <webElementGuid>c7bf0fff-d8a2-40f7-b1af-8004f331bb7f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modal Dialogs'])[1]/following::div[3]</value>
+      <webElementGuid>b573f322-1f6a-4f00-a0e4-992842e7c1fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nested Frames'])[1]/following::div[2]</value>
-      <webElementGuid>24fe2bd2-f299-4071-95fe-e085cfcc68d9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nested Frames'])[1]/following::div[3]</value>
+      <webElementGuid>d61fd3ad-0b4d-443f-9754-f9fc8d6ccddf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accordian'])[1]/preceding::div[5]</value>
-      <webElementGuid>63186553-3771-406b-a67e-82514034f75b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accordian'])[1]/preceding::div[4]</value>
+      <webElementGuid>c5e45a75-d5e2-4efd-859f-a8c55c640b31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto Complete'])[1]/preceding::div[4]</value>
+      <webElementGuid>28e18784-3e6d-49c3-808d-a92e791ef25d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Widgets']/parent::*</value>
+      <webElementGuid>aa43a074-5ef9-4812-925f-7831463cfe5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/span/div</value>
-      <webElementGuid>6fd75683-5277-43fd-b0fd-f10eb3a49ed5</webElementGuid>
+      <value>//div[4]/span/div/div</value>
+      <webElementGuid>f4735bef-e450-4216-a5e5-58dea7ac5f43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Widgets ' or . = 'Widgets ')]</value>
-      <webElementGuid>f888186a-eafa-4cd0-8a34-780fd4bfe96e</webElementGuid>
+      <value>//div[(text() = 'Widgets' or . = 'Widgets')]</value>
+      <webElementGuid>3bb0fb41-1d2f-4be3-85fc-8804baf3905b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

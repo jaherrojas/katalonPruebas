@@ -3,18 +3,22 @@
    <description></description>
    <name>div_14</name>
    <tag></tag>
-   <elementGuidId>826f89e5-666c-4c5f-bb21-ed377bc2ff37</elementGuidId>
+   <elementGuidId>0307b873-9e0c-4a23-804c-6995994b899e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='progressBar']</value>
+         <key>BASIC</key>
+         <value>//div[@id = 'progressBar']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#progressBar</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='progressBar']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,12 +28,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d66ee19e-116a-4f80-998a-7b33f68a0dd8</webElementGuid>
+      <webElementGuid>b2b27172-8a85-407a-b625-e9eecc34b980</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>progressBar</value>
-      <webElementGuid>f5beefac-85b0-4a51-acd0-d42379c02137</webElementGuid>
+      <webElementGuid>36a551a0-6093-4c7e-9efc-ab9d517fa863</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>class</name>
       <type>Main</type>
       <value>progress</value>
-      <webElementGuid>629c7473-6e5e-47cc-8be2-ea032fcb8afa</webElementGuid>
+      <webElementGuid>3e62de12-0448-4778-98de-7403c42d74d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>14%</value>
-      <webElementGuid>df0eee76-4b16-4ad7-8f00-3f777890b67a</webElementGuid>
+      <value>${porcentaje}</value>
+      <webElementGuid>95d095af-96b0-4bf6-80fe-57ea2f4a8f49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;progressBar&quot;)</value>
-      <webElementGuid>9ef970fe-50df-4dd2-ad2b-ab64bab73862</webElementGuid>
+      <webElementGuid>f03dbf35-91f9-4a49-abac-65ef18b11e5a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='progressBar']</value>
-      <webElementGuid>be032c2d-5459-4829-bbae-1ee6ba5d368b</webElementGuid>
+      <webElementGuid>fa4b9e97-a125-40f4-835a-91e3e0ff3972</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='progressBarContainer']/div[2]</value>
-      <webElementGuid>2b434a5e-56ac-46f8-8997-2de7348fb9ae</webElementGuid>
+      <webElementGuid>a100a8a1-8164-4c51-909b-807b1b7b9239</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Progress Bar'])[3]/following::div[1]</value>
-      <webElementGuid>2850c654-0d52-4b5f-bd9e-4acbe7c7b4a2</webElementGuid>
+      <webElementGuid>c4787a81-e9b6-4c0a-904b-4b259ec4dcf2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Progress Bar'])[2]/following::div[2]</value>
-      <webElementGuid>dd30d356-0287-490f-a042-5ec1cd585a0f</webElementGuid>
+      <webElementGuid>235c2392-b16e-40ab-91ed-8e9bd2952a7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::div[2]</value>
-      <webElementGuid>f023e16a-31e3-4a95-b15b-6aa39775248f</webElementGuid>
+      <webElementGuid>5d54907b-94ab-41c8-aa2e-28501c92c524</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.'])[1]/preceding::div[14]</value>
-      <webElementGuid>f0f72a44-96c0-4683-bce2-96ce2fa39765</webElementGuid>
+      <webElementGuid>42779b86-e1f7-407d-988f-b9c4f23dba7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div[2]</value>
-      <webElementGuid>8a3f8792-e3ee-420d-9e15-1521206aabf4</webElementGuid>
+      <webElementGuid>dc35f735-e683-4028-a37b-6356f7b9675a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'progressBar' and (text() = '14%' or . = '14%')]</value>
-      <webElementGuid>f864ae4e-f7f8-448a-941f-1ce88036ba14</webElementGuid>
+      <webElementGuid>565912f2-38ce-493d-99ed-c680f2373fbb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
