@@ -19,11 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 // Abrir el navegador y navegar al sitio web
 WebUI.openBrowser('https://demoqa.com/automation-practice-form')
-
+WebUI.delay(2)
 // Navegar a la sección "Widgets" y luego a "Progress Bar"
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/div_Widgets'))
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/span_Progress Bar'))
-
+WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Page_DEMOQA/span_progress_bar'))
+WebUI.delay(2)
 // Hacer clic en el botón "Start" para iniciar la carga de la barra
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/button_Start'))
 
