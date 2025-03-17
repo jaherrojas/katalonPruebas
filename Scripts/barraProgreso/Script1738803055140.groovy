@@ -28,6 +28,7 @@ WebUI.delay(2)
 // Hacer clic en el botón "Start" para iniciar la carga de la barra
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/button_Start'))
 
+WebUI.takeScreenshot()
 // Monitorear la barra de progreso hasta que alcance el 39%
 def targetPercentage = 39
 def currentPercentage = 0
